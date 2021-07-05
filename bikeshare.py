@@ -182,7 +182,7 @@ def data(df):
     #show raw data if the user wants to see it
     raw_data = 0
     while True:
-        answer = input("Do you want to see the raw data? Type yes or no ").lower()
+        answer = input("Would you like to see the raw data? Type yes or no ").lower()
         if answer not in ['yes', 'no']:
             answer = input("You wrote the wrong word. Please type yes or no ").lower()
         elif answer == 'yes':
