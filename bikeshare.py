@@ -19,7 +19,13 @@ def get_filters(city,month,day):
 
     #get user input for city (chicago, new york city, washington)
     while True:
+<<<<<<< HEAD
         city = input("Please write a city name: Chicago, New York City or Washington. I must warn you that for Washington city there is less data available ").lower()
+||||||| 65ef949
+        city = input("Please write a city name: Chicago, New York City or Washington ").lower()
+=======
+        city = input("Please write a city name:\nChicago, New York City or Washington ").lower()
+>>>>>>> documentation
         if city not in CITY_DATA:
             print("\Please enter a valid city name\n ")
             continue
